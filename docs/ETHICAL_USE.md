@@ -4,7 +4,6 @@ NetSight Monitor is a learning and monitoring tool. Use it only in environments 
 
 ## Allowed Use
 
-- Final-year project demonstration
 - Personal lab testing
 - Authorized local network monitoring
 - Security awareness training
@@ -19,4 +18,4 @@ NetSight Monitor is a learning and monitoring tool. Use it only in environments 
 
 ## Recommended Practice
 
-Use demo websites, test credentials, and lab networks. Blur or remove sensitive values before adding screenshots to reports, GitHub, or presentations.
+Use demo websites, test credentials, and lab networks.
