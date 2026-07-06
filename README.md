@@ -71,17 +71,56 @@ NetSight Monitor provides a clean graphical interface divided into multiple work
 
 ---
 
-## 📂 Repository Structure
+## 📸 Screenshots and Interface Preview
 
-```text
-netsight_mon/
-├── netsight_mon.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── SECURITY.md
-├── .gitignore
-└── docs/
-    ├── USAGE.md
-    ├── ETHICAL_USE.md
-    └── PROJECT_REPORT_NOTES.md
+The following screenshots show the major working sections of **NetSight Monitor**. These images demonstrate the graphical dashboard, packet capture process, HTTP/Form event monitoring, connected device discovery, live statistics, and PDF report export feature.
+
+---
+
+### 🖥️ Main Dashboard
+
+![Main Dashboard](assets/screenshots/main-dashboard.png)
+
+The main dashboard provides the primary working area of NetSight Monitor. From this interface, the user can select a network interface, start or stop packet capture, apply packet filters, inspect captured packets, and export a PDF report. The dashboard is divided into different tabs such as **Live Packet Inspector**, **HTTP / Form Events**, **Network Devices**, and **Live Statistics**.
+
+---
+
+### 📡 Packet Capture During Testing
+
+![Packet Capture During Testing](assets/screenshots/packet-capture-testing.png)
+
+This screenshot shows live packet capture running on the selected network interface. Captured packets are displayed in a structured table with details such as date, time, source IP, source port, destination IP, destination port, protocol, application protocol, and packet length. The lower panel shows decoded packet information, payload preview, and raw hexadecimal data for the selected packet.
+
+---
+
+### 🌐 HTTP / Form Events
+
+![HTTP Form Events](assets/screenshots/http-form-events.png)
+
+The HTTP / Form Events tab displays visible plaintext HTTP activity captured during authorized testing. It shows HTTP requests, responses, query fields, and submitted form fields when such traffic is available in plaintext. This feature is useful for demonstrating the security risk of unencrypted HTTP communication.
+
+> Note: Before publishing screenshots publicly, real credentials, email addresses, private IP addresses, and sensitive values should be blurred or replaced with demo data.
+
+---
+
+### 🧩 Connected Device Discovery
+
+![Device Discovery](assets/screenshots/device-discovery.png)
+
+This screenshot shows the Network Devices tab, where NetSight Monitor performs ARP-based device discovery on the local subnet. The tool displays active devices with IP address, MAC address, hostname, and vendor information wherever available. This helps users identify devices connected to the monitored network.
+
+---
+
+### 📊 Live Statistics
+
+![Live Statistics](assets/screenshots/live-statistics.png)
+
+The Live Statistics tab provides a quick summary of the capture session. It displays total captured packets, connected devices discovered, protocol totals, application protocol totals, HTTP/Form event counts, and top source IP addresses. This section helps users understand network activity without manually checking every packet.
+
+---
+
+### 📄 PDF Report Export
+
+![PDF Report Output](assets/screenshots/pdf-report-output.png)
+
+This screenshot shows the PDF report export feature. After packet capture, the user can click **EXPORT PDF REPORT** to generate a professional report. The report is automatically saved inside the `exported_reports/` folder with a timestamped filename. The PDF includes traffic summary, protocol statistics, device details, HTTP/Form events, packet flow, and interpretation.
