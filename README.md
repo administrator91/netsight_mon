@@ -111,9 +111,14 @@ This screenshot shows the Network Devices tab, where NetSight Monitor performs A
 
 ---
 
+### 📊 Live Statistics
 
+![Live Statistics](assets/screenshots/live-statistics.png)
+
+The Live Statistics tab provides a quick summary of the capture session. It displays total captured packets, connected devices discovered, protocol totals, application protocol totals, HTTP/Form event counts, and top source IP addresses. This section helps users understand network activity without manually checking every packet.
 
 ---
+
 
 ### 📄 PDF Report Export
 
