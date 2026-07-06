@@ -126,12 +126,16 @@ The Live Statistics tab provides a quick summary of the capture session. It disp
 
 This screenshot shows the PDF report export feature. After packet capture, the user can click **EXPORT PDF REPORT** to generate a professional report. The report is automatically saved inside the `exported_reports/` folder with a timestamped filename. The PDF includes traffic summary, protocol statistics, device details, HTTP/Form events, packet flow, and interpretation.
 
+---
+
 
 ## 📌 Attribution
 
 This project was developed by **Rajarshi Sarkar**.
 
 If you use, modify, publish, or share this project, please retain the original author credit and license notice.
+
+---
 
 
 ## 📄 License
